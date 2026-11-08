@@ -2,11 +2,11 @@
 
 **dipop — F&M's Campus Marketplace, Give-and-Take Room, and Reward Economy**
 
-Built for the **Social Good** track at the F&M Hackathon.
+A project built for the **Social Good** track at the F&M Hackathon
 
 ## 🔎 What it does
 
-dipop is a campus marketplace for Franklin & Marshall students, gated behind `@fandm.edu` sign-in, that brings together three things F&M students already do informally and gives them one real home:
+Dipop is an all-in-one campus marketplace for Franklin & Marshall students, gated behind `@fandm.edu` sign-in, that brings together three things F&M students already do informally and makes them into a real working system:
 
 - **Marketplace** — buy, sell, or give away items for free directly with other students.
 - **Give and Take Room (GATR)** — a guided flow for donating clean, usable items to F&M's physical Give and Take Room, with hours and drop-off instructions built in.
@@ -18,7 +18,7 @@ The app recognizes two roles, Student and Staff, which unlock different actions 
 
 ## 💡 Inspiration
 
-F&M already has a buy/sell bulletin for students — almost nobody has heard of it. That's because it runs on Google Bulletin, which makes posting and browsing cartoonishly hard to navigate. The tool that was supposed to solve this problem on campus was quietly part of the problem. We wanted something students would actually open: a clean marketplace that also nudges people toward the more sustainable option (donating to GATR) by actually rewarding it.
+F&M already has a buy/sell bulletin for students yet almost nobody has heard of it. That's because it runs on Google Bulletin, which makes posting and browsing cartoonishly hard to navigate. The tool that was supposed to solve this problem on campus was quietly part of the problem. We wanted something students would actually open: a clean marketplace that also nudges people toward the more sustainable option (donating to GATR) by actually rewarding it.
 
 ## 🛠 How we built it
 
@@ -37,12 +37,15 @@ F&M already has a buy/sell bulletin for students — almost nobody has heard of 
 
 ## ⚔ Challenges we ran into
 
+- The frontend presets from Streamlit was insufficient to be used as a website, so we decided to make the frontend in a seperate stack instead, as Kai also have experience with React. 
+- Since we store our data in Google Sheet We also ran into the challenge regarding photo uploading since Google service for storing them would require payment. Thus, we decided to use Cloudinary 3rd party API instead.
 - Turning bulletin posts into marketplace listings. Existing posts didn’t follow a consistent format. Photos could appear in different places, and details like price and condition were often buried in the text. The data was stored on google group, which is difficult to extract from due to authentication issues. We had to turn those posts into structured listings and match each photo to the right item.
 - Designing for students and staff. Students need to browse, post, and find donation instructions quickly. Staff need separate controls for managing food inventory and awarding Dipomine. We had to make both workflows feel like part of the same app.
 
 ## 🏆 Accomplishments we're proud of
 
-<ENTER INTO THIS PLACEHOLDER>
+- Through this project, we were able to extracted and structured real menu and product data from the Google bulletin board into a Google Sheets, so the app runs on actual campus data
+- We were also very proud to be able to dsigned the Dipomine reward system and wired it into the ordering flow
 
 ## 📚 What we learned
 
@@ -54,8 +57,10 @@ F&M already has a buy/sell bulletin for students — almost nobody has heard of 
 
 ## 🚀 What's next for dipop
 
-<ENTER INTO THIS PLACEHOLDER>
-
+- If this project is able to become an actual part for F&M, we would first finished the data extractions we would reach out to the person in charge of Food Corner and GATR so that they can upload more products on their own and add Dipomine to students
+- Wire an actual functioning authentication login gate
+- Payment integration with campus system so that Dipomine can be used
+- Accessibility improvement with screen readers, color contrast, so the app works for everyone and every devices on campus
 
 ## 🔩 Installation
 
