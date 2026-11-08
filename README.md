@@ -37,7 +37,8 @@ F&M already has a buy/sell bulletin for students — almost nobody has heard of 
 
 ## ⚔ Challenges we ran into
 
-<ENTER INTO THIS PLACEHOLDER>
+- Turning bulletin posts into marketplace listings. Existing posts didn’t follow a consistent format. Photos could appear in different places, and details like price and condition were often buried in the text. The data was stored on google group, which is difficult to extract from due to authentication issues. We had to turn those posts into structured listings and match each photo to the right item.
+- Designing for students and staff. Students need to browse, post, and find donation instructions quickly. Staff need separate controls for managing food inventory and awarding Dipomine. We had to make both workflows feel like part of the same app.
 
 ## 🏆 Accomplishments we're proud of
 
@@ -45,7 +46,11 @@ F&M already has a buy/sell bulletin for students — almost nobody has heard of 
 
 ## 📚 What we learned
 
-<ENTER INTO THIS PLACEHOLDER>
+- Project planning skills. 
+- Teamwork and coordination skills with a big group.
+- Effective communication.
+- Data cleaning is essential. Cleaning up the bulletin data was part of making the marketplace usable. 
+- How to incorporate the role of F&M's staff into the app.
 
 ## 🚀 What's next for dipop
 
