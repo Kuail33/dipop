@@ -51,9 +51,6 @@ F&M already has a buy/sell bulletin for students — almost nobody has heard of 
 
 <ENTER INTO THIS PLACEHOLDER>
 
-## 🎥 Demo Video
-
-<ENTER INTO THIS PLACEHOLDER>
 
 ## 🔩 Installation
 
