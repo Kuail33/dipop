@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pydantic
+gspread
+google-auth
+pandas
+cloudinary
+python-multipart

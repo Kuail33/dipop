@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #003da5;
+    --color-ink: #041e42;
+    --color-paper: #ffffff;
+    --color-surface: #f1f4f9;
+    --color-accent: #009cde;
+    --color-muted: #6b7280;
+    --color-border: #e1e6ef;
+    --color-limestone: #f3f1e6;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Inter Tight', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  user-select: none;
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.material-symbols-outlined.filled {
+  font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Hover shadow specified in design system */
+.hover-card-shadow {
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.hover-card-shadow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(4, 30, 66, 0.14);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hover-card-shadow,
+  .hover-card-shadow:hover,
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
