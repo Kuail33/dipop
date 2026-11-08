@@ -1,6 +1,6 @@
-# 🏷️ dipop
+# 🐿️ dipop
 
-**dipop — F&M's Campus Marketplace, Give-and-Take Room, and Reward Economy**
+**The System for F&M's Campus Marketplace, Give-and-Take Room, and Reward Economy**
 
 A project built for the **Social Good** track at the F&M Hackathon
 
