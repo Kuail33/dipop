@@ -302,7 +302,7 @@ export const ProductDetailView: React.FC<ProductDetailViewProps> = ({
       {otherItemsFromSeller.length > 0 && (
         <div className="mt-12 pt-6 border-t border-[#E1E6EF]">
           <h2 className="text-sm font-bold text-[#041E42] uppercase tracking-wider mb-3">
-            Other stuff from {item.sellerName}
+            Other stuff
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
             {otherItemsFromSeller.map((other) => (
